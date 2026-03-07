@@ -1,0 +1,71 @@
+/*Estilo dos h3*/
+
+body {
+    padding: 50px;
+}
+
+h3 {
+    color: green;
+}
+
+/* 8 classe */
+.parag {
+    background-color: rgb(210, 181, 107);
+    padding: 5px;
+}
+
+#importante {
+    background-color: chocolate;
+}
+
+/* 9 cores com hex */
+.corhex {
+    color: #1c8780;
+    background-color: #a0faf4;
+    padding: 5px;
+}
+
+/* 10 imagem como bckground*/
+.imgbck,
+.imgbck_c,
+.imgbck_p {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+
+}
+
+/* 11 imagem como bckground position*/
+.imgbck_p,
+.imgbck_c {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+    height: 250px;
+    width: 500px;
+
+}
+
+/* 12 imagem como bckground cover*/
+.imgbck_c {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* 13 border box */
+
+.com_border_box,
+.sem_border_box {
+    background-color: #32c8be;
+    width: 500px;
+    padding: 5px 50px 5px 50px;
+}
+
+.sem_border_box {
+    box-sizing: border-box;
+}

@@ -55,3 +55,47 @@ Linha divisória: ---
 - **th** - fica o cabecalho
 
 **div** - para criar divisao no site, para encapsular elementos do site.
+
+---
+
+# CSS
+
+Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cmd '<link rel="stylesheet" href="css/styles.css">'.
+
+## ORDEM DO CSS
+- Se tiver tudo junto, o CSS ira dar preferencia para esta sequencia: inline, interno e externo.
+- *classe e Id*, são elementos mais especificos. Id nao pode se repetir, mas as classes sim.
+- *cores*, não é indicado usar nomes nas cores. O ideal é usar RGB ou Hexa que é o mais usado. No Hexa o 0 é a mais escura e F a mais clara, a cada duas casa é a definicao de verm, verde, azul.
+**#000** é preto e **#FFF** é branco.
+- Separar o seletor por "," faz com que ele aproveite configuracoes. 
+
+## TAGS do CSS:
+
+**padding** - cria um espaço dentro da margem e dentro do border.
+
+**back-ground-color** - cor de fundo.
+**opacity** - ele esta para o back_color, ele joga uma opacidade, que vai de 0 a 1.
+
+**.nome_classe** - o "." e nome significa a tag para classe do elemento. Ex. no html '''<p class="parag"> Teste de texto com classe</p>'''. 
+
+**#nome_id** - modo de especificar o css do ID. Ex: '<p class="parag" id="importante"> Teste de texto sem classe</p>'
+
+**font-size** - tamano da fonte.
+
+**color** - Cor da letra.
+
+**border** - para borda.
+**border-radius** - arredonda a borda.
+
+**background-image** - para colocar imagem no background. Importante, eu insiro a img pelo css. EX: 'background-image: url("../img/nature.jpg")'
+**background-position** - para centralizar a img dentro do elemento "div", neste caso colocamos com valor *center*.
+**background-size** - para centralizar a img dentro do elemento "div", neste caso colocamos com valor *cover*. **Os dois juntos centraliza e reduz a imagem dentro da div**
+
+**height e width** - se diz a respeito do tamanho da div.
+
+**box-sizing** - Serve para redimensionar o espaco interno do conteudo com o tamanho maximo determinado pelo width. Se o w=500, mesmo que minha imagem tenho 500 e meu padding 50, o css transformara o a imagem em 400 para colocar dois padding de 50. Cmd: *box-sizing=boder-box*
+
+
+
+
+
