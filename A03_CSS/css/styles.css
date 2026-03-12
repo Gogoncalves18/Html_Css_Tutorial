@@ -1,0 +1,222 @@
+/*Estilo dos h3*/
+
+body {
+    padding: 50px;
+}
+
+h3 {
+    color: green;
+}
+
+/* 8 classe */
+.parag {
+    background-color: rgb(210, 181, 107);
+    padding: 5px;
+}
+
+#importante {
+    background-color: chocolate;
+}
+
+/* 9 cores com hex */
+.corhex {
+    color: #1c8780;
+    background-color: #a0faf4;
+    padding: 5px;
+}
+
+/* 10 imagem como bckground*/
+.imgbck,
+.imgbck_c,
+.imgbck_p {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+
+}
+
+/* 11 imagem como bckground position*/
+.imgbck_p,
+.imgbck_c {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+    height: 250px;
+    width: 500px;
+
+}
+
+/* 12 imagem como bckground cover*/
+.imgbck_c {
+    background-image: url("../img/nature.jpg");
+    padding: 10px;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+/* 13 border box */
+
+.com_border_box,
+.sem_border_box {
+    background-color: #32c8be;
+    width: 500px;
+    padding: 5px 50px 5px 50px;
+}
+
+.sem_border_box {
+    box-sizing: border-box;
+}
+
+/* 14 align texto */
+
+.txt-align {
+    text-align: right;
+}
+
+.cont-center {
+    text-align: center;
+    width: 250px;
+    border: 1px solid red;
+}
+
+/* 15 text decoration */
+
+.com-underline {
+    text-decoration: underline;
+}
+
+.line-trow {
+    text-decoration: line-through;
+}
+
+.sem-underline {
+    text-decoration: none;
+}
+
+/* 16 text transform */
+
+.txt-up {
+    text-transform: uppercase;
+}
+
+.txt-low {
+    text-transform: lowercase;
+}
+
+/* 17 letter spacing */
+.letter-espac {
+    letter-spacing: 5px;
+}
+
+/* 18 fonte */
+
+.serif {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.sanssef {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mono {
+    font-style: "Courier New";
+
+}
+
+.cursi {
+    font-family: cursive;
+}
+
+.fant {
+    font-family: fantasy;
+}
+
+/* 19 display */
+.inline {
+    width: 50px;
+    background-color: #32c8be;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* 20 position */
+
+
+.static,
+.relative,
+.absolute,
+.stick,
+.absolute-relative {
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    text-align: center;
+    color: #fff;
+}
+
+.static {
+    background-color: #1c8780;
+}
+
+.relative {
+    background-color: #b13918;
+    position: relative;
+    top: 30px;
+    right: -100px;
+}
+
+.absolute {
+    background-color: #2e11ae;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+}
+
+.absolute-relative {
+    background-color: #6b6848;
+    width: 300px;
+    height: 300px;
+    border: 1px solid red;
+    margin-top: 30px;
+    position: relative;
+}
+
+.absolut1,
+.absolut2 {
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+.absolut1 {
+    top: 10px;
+    left: 10px;
+}
+
+.absolut2 {
+    bottom: 10px;
+    right: 10px;
+}
+
+.fixo {
+    background-color: #b13918;
+    color: #fff;
+    border: 1px solid red;
+    margin: 1px;
+    position: fixed;
+    top: 10px;
+    right: 1px;
+}
+
+
+.stick {
+    background-color: #860e70;
+    position: sticky;
+    top: 500px;
+    right: 100px;
+}

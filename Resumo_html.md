@@ -95,7 +95,31 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 
 **box-sizing** - Serve para redimensionar o espaco interno do conteudo com o tamanho maximo determinado pelo width. Se o w=500, mesmo que minha imagem tenho 500 e meu padding 50, o css transformara o a imagem em 400 para colocar dois padding de 50. Cmd: *box-sizing=boder-box*
 
+**text-align** - alinhamento de texto dentro do container.
 
+**text-decoration** - coloca o underline, line-through e none para colocar linha, riscado ou nada em qq texto.
+
+**text-transform** - para transformar o texto em cx alta e baixa.
+
+**letter-spacing** - espaçamento entre letras.
+
+**font-family** - determinar a familia de possiveis fontes.
+**font-style** - definicao do tipo oblico e negrito.
+**font-weight** - define a espessura da fonte. Sendo o normal para este attr é 300.
+**font-size** - determina o tam da fontve.
+
+**display** - muda o comportamento de bloco ou inline para os containers do html. 
+- *Inline-block* - joga uma do lado da outra.
+- *None* - esconde o container.
+
+**position** - serve para posicionar os elementos na tela, sendo da esquerda para direita, do topo para parte inferior Lembrando que todo elemento é estatico e comeca com um padrao. Segue suas variantes:
+- *static* - é posicao padrao, ela segue o fluxo do html
+- *relative* - top, left, right e botton move o elemento pela tela, a partir da posicao que ele deveria iniciar se fosse static.
+- *fixed* - defino uma posicao que ele sempre ficara na tela, mesmo que a tela mova, ele ficara visivel.
+- *absolute* - top, eft, right e botton move o elemento pela tela, a partir da posicao do canto direito superior da tela.
+- *absolute com relative* - top, left, right e botton move o elemento pela tela, a partir do elemento mais próximo dentro do container. Jogamos uma div dentro da outra para controlar cada uma de uma forma.
+- *sticky* - top, left, right e botton move o elemento pela tela, mas o comportamento é ele assumir a posicao dele até que entre na tela de acordo com a sequencia de containers do html, apos entrar na tela, ele fica em uma posicao imposta no css, sendo assim, mesmo que mova a tela, ele sempre respeitara a posicao imposta, a nao ser que voltemos a tela para posicao original.
+- *z-index* - serve para colocar elementos que estao sobrepostos, em uma posicao de hierarquia. Por ex. se o elem A precisa ficar sobre o elem B, o z-index de A sera =1 e de B sera =2.
 
 
 
