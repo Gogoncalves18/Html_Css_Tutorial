@@ -30,6 +30,8 @@ Linha divisória: ---
 ## TAGS IMPORTANTES
 **HEAD** - Aqui é onde é a config da pagina e nao aparece na pagina 
 
+**html** - pega todo o arquivo html para aplicar o estilo, como classe.
+
 **h1 a h6** - Definido para estruturar os titulos, ele sera dividido por grau de importancia de 1 para 6, sendo 1 mais importante. Isto nao tem haver com estilo (tamanho e cor é estilo)
 
 **br** - quebra linha
@@ -55,6 +57,11 @@ Linha divisória: ---
 - **th** - fica o cabecalho
 
 **div** - para criar divisao no site, para encapsular elementos do site.
+
+**figure** - para definir area de uma img.
+**figcaption** - para descrever para o buscador o que temos na img.
+
+**blockquote** - para definir citações.
 
 ---
 
