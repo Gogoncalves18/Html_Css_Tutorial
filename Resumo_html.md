@@ -139,7 +139,12 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 
 **text-transform** - para transformar o texto em cx alta e baixa.
 
+**line-height** - define uma altura de ocupacao do texto dentro de um container, usamos o mesmo valor que o height para centralizar o texto.
+
 **letter-spacing** - espaçamento entre letras.
+
+**cursor** - possui as opçoes:
+- *pointer* - quando ficar em cima do elemento o cursor muda para uma maozinha.
 
 **font-family** - determinar a familia de possiveis fontes.
 **font-style** - definicao do tipo oblico e negrito.
