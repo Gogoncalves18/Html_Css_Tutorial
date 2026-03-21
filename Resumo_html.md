@@ -63,6 +63,37 @@ Linha divisória: ---
 
 **blockquote** - para definir citações.
 
+**form** - para abrir formulario.
+**input** - temos tipos de input diferentes para definir o proposito.
+- *Tipo text* - para receber texto.
+- *submit* - se refere a um btn para enviar dados.
+- *textarea* - é uma area maior para digitar texto grandes.
+- *fieldset* - utilizado para vincular varios input em uma area somente.
+- *password* - para utilizacao de senha, escondendo o que esta sendo digitado.
+- *reset* - para limpar o formulario, ele é um btn.
+- *radio* - para selecionar uma de várias opcoes que estao amostra.
+- *checkbox* - ao contrario da radio, este posso marcar mais de uma opcao.
+- *date* - insercao de data. 
+- *file* - para enviar arquivos.
+- *number* - para input de numeros com auxilio da seta.
+- *email* - é um input especial para validacao do email.
+**atributos** - o form possui os seguintes attr:
+- *action* - envio de dados.
+- *name* - este valor é pego quando o attr é enviado.
+- *for* - serve para dar nome da label e boa pratica é colocar o mesmo nome do
+ input.
+- *value* - serve para deixar um valor ja preenchido.
+- *disabled* - serve para bloquear o input quando nao queremos que seja feito.
+- *placeholder* - para adicinar dicas dentro dos input.
+- *required* - para forçar o usuario a inserir o valor no input, se ele nao fizer, sera levantado um aviso.
+**method** - o form possui os seguintes metodos:
+- *get ou post* - receber ou enviar dados.
+**select** - para definir opcoes (lista).
+- *selected* - é uma attr do select para pre definir uma das opcoes da lista.
+- *multiple* - para selecionar multiplas selecoes.
+- *datalist* - é uma opção de lista que mostra para o usuario as opcoes a serem selecionadas ou pre digitadas. 
+
+
 ---
 
 # CSS

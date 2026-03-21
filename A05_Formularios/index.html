@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h2>Formulários HTML</h2>
+    <!-- 01 Primeiro Form -->
+    <!-- 02 Atributos Form -->
+    <form action="" method="post">
+        <div>
+            <label>Nome:</label>
+            <input type="text">
+        </div>
+        <!-- 03 Atributo name -->
+        <div>
+            <label for="age">Idade:</label>
+            <input type="text" name="age">
+        </div>
+        <!-- 06 select -->
+        <div>
+            <label for="job">Selecione sua profissão:</label>
+            <select name="job" id="1">
+                <option value="programador">Programador</option>
+                <option value="tester">Tester</option>
+                <option value="devops" selected>DevOps</option>
+                <option value="analista">Analista de Sistemas</option>
+            </select>
+        </div>
+
+        <!-- 07 select multiplos -->
+        <div>
+            <label for="beneficios">Selecione seus beneficos:</label>
+            <select name="beneficios" multiple id="2">
+                <option value="VT">Vale Trans.</option>
+                <option value="VR">Vale Ref.</option>
+                <option value="VC">Vale Crechê</option>
+                <option value="VV">Vale Viagem</option>
+            </select>
+        </div>
+        <!-- 08 Areas para texto -->
+        <div>
+            <label for="comment">Comentário:</label>
+            <textarea name="comment" id="3"></textarea>
+        </div>
+
+        <!-- 09 Fieldset e Legend -->
+        <div>
+            <fieldset>
+                <legend>Preencha as suas infos:</legend>
+                <label for="fname">Nome:</label>
+                <input type="text" name="fname">
+                <label for="lname">Sobre nome:</label>
+                <input type="text" name="lname">
+            </fieldset>
+        </div>
+
+        <!-- 10 Datalist -->
+        <div>
+            <label for="sabor">Escolha o sabor:</label>
+            <input type="text" list="sabores" name="sabor">
+
+            <datalist id="sabores">
+                <option value="Cereja"></option>
+                <option value="Banana"></option>
+                <option value="Morango"></option>
+                <option value="Abacaxi"></option>
+            </datalist>
+        </div>
+
+        <!-- 11 Senha -->
+        <div>
+            <label for="password">Digite sua senha:</label>
+            <input type="password" name="password">
+        </div>
+
+        <!-- 12 Limpar o formulario -->
+        <div>
+
+            <input type="reset" value="Limpar">
+        </div>
+
+        <!-- 13 Radio -->
+        <div>
+            <label for="car-model">Escolha o modelo do seu carro:</label>
+            <div class="radio">
+                <input type="radio" value="bmw" name="car-model">
+                <label for="bmw">BMW</label>
+                <input type="radio" value="byd" name="car-model">
+                <label for="byd">BYD</label>
+                <input type="radio" value="GWM" name="car-model">
+                <label for="gwm">GWM</label>
+                <input type="radio" value="Tiggo" name="car-model">
+                <label for="Tiggo">Tiggo</label>
+            </div>
+        </div>
+
+        <!-- 13 Checkbox -->
+        <div>
+            <label for="options">Opcionais do seu carro:</label>
+            <div class="check">
+                <input type="checkbox" value="Ar" name="options[]">
+                <label for="Ar">Ar</label>
+                <input type="checkbox" value="Direção Hid." name="options[]">
+                <label for="Direção Hid.">Direção Hidráulica</label>
+                <input type="checkbox" value="Aquecimento" name="options[]">
+                <label for="Aquecimento">Aquecimento</label>
+                <input type="checkbox" value="ACC" name="options[]">
+                <label for="ACC">ACC</label>
+            </div>
+        </div>
+
+        <!-- 14 date -->
+        <div>
+            <label for="niver">Data de Aniversário:</label>
+            <input type="date" name="niver">
+        </div>
+
+        <!-- 16 Enviar arquivos -->
+        <div>
+            <label for="img">Envie seus arquivo:</label>
+            <input type="file" name="img">
+        </div>
+
+        <!-- 15 Envio de form -->
+        <input type="submit" value="enviar">
+    </form>
+</body>
+
+</html>
