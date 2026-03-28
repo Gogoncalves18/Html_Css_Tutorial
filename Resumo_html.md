@@ -164,5 +164,12 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 - *sticky* - top, left, right e botton move o elemento pela tela, mas o comportamento é ele assumir a posicao dele até que entre na tela de acordo com a sequencia de containers do html, apos entrar na tela, ele fica em uma posicao imposta no css, sendo assim, mesmo que mova a tela, ele sempre respeitara a posicao imposta, a nao ser que voltemos a tela para posicao original.
 - *z-index* - serve para colocar elementos que estao sobrepostos, em uma posicao de hierarquia. Por ex. se o elem A precisa ficar sobre o elem B, o z-index de A sera =1 e de B sera =2.
 
+**@media** - tag para assumir no css novos parametros de acordo com o tamanho de tela do browser. Sua sintaxe: 'screen and (max-width: 500px) { aqui vai o css }'.
+Para esconder em landscape, a sintaxe é: *'screen and (orientation: landscape)'*
+
+- *600px para baixo* - para trabalhar com celular
+- *768px a 600px* - para tablets
+- *992px a 768px* - mini laptops
+- *992px para cima* - laptops e desktop 
 
 

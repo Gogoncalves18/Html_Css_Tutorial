@@ -1,0 +1,30 @@
+/* midia query */
+
+h1 {
+    color: red;
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        color: blue;
+    }
+}
+
+/* midia query funciona somente acima de 500px*/
+@media screen and (min-width: 500px) {
+    h1 {
+        color: white;
+        background-color: black;
+    }
+}
+
+/* escondendo no landscape */
+h3 {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    h3 {
+        display: block;
+    }
+}
