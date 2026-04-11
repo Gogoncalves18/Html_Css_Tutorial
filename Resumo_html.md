@@ -93,6 +93,13 @@ Linha divisória: ---
 - *multiple* - para selecionar multiplas selecoes.
 - *datalist* - é uma opção de lista que mostra para o usuario as opcoes a serem selecionadas ou pre digitadas. 
 
+## SEPARAÇÃO ESTRUTURAL DENTRO DO HTML
+**Tags de separação do html para melhor semântica da estrutura do arquivo:**
+- *nav* - para colocar tudo que é de navegação do site, em relação ao menu.
+- *main* - onde fica a parte de conteúdo principal.
+- *section* - subdivisão dentro do html para definir que ali eu tenho "div" de conteúdo específico.
+
+
 
 ---
 
@@ -131,6 +138,8 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 
 **height e width** - se diz a respeito do tamanho da div.
 
+**overflow-x: hidden** - serve para pegar uma div e extender ela até o final da ocupação em x (na horizontal).
+
 **box-sizing** - Serve para redimensionar o espaco interno do conteudo com o tamanho maximo determinado pelo width. Se o w=500, mesmo que minha imagem tenho 500 e meu padding 50, o css transformara o a imagem em 400 para colocar dois padding de 50. Cmd: *box-sizing=boder-box*
 
 **text-align** - alinhamento de texto dentro do container.
@@ -149,11 +158,18 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 **font-family** - determinar a familia de possiveis fontes.
 **font-style** - definicao do tipo oblico e negrito.
 **font-weight** - define a espessura da fonte. Sendo o normal para este attr é 300.
-**font-size** - determina o tam da fontve.
+**font-size** - determina o tam da fonte.
+**list-style: none** - remove marcacoes no LI de uma lista.
+
+**flex** - define o como o elemento irá aumentar se ocorrer um zoom na página. Seu params: 1 1 200px (os dois primeiros é para ratio durante o zoom e o último é o tamanho dos elementos).
 
 **display** - muda o comportamento de bloco ou inline para os containers do html. 
 - *Inline-block* - joga uma do lado da outra.
 - *None* - esconde o container.
+- *flex* - deixa as div um do lado do outro
+    - *justify-content: space-between* - espalha em espaco iguais as divs que estao lado a lado para ocupar a tela.
+- *flex-direction* - define uma direcao para div:
+    - *flex-direction: column* - joga as div em uma coluna.
 
 **position** - serve para posicionar os elementos na tela, sendo da esquerda para direita, do topo para parte inferior Lembrando que todo elemento é estatico e comeca com um padrao. Segue suas variantes:
 - *static* - é posicao padrao, ela segue o fluxo do html
