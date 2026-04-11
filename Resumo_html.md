@@ -116,6 +116,21 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 
 ## TAGS do CSS:
 
+**Uso de Variaveis no CSS** - podemos criar variaveis para nao ficar repetindo cores ou errar o nome:
+    *Construcao variavel:*
+        ':root {
+            --bg: #fff;
+            --texto: #111;
+            --acao: #2563eb;
+        }'
+
+    *Uso da variavel:*
+        body {
+            background-color: var(--bg);
+            counter-reset: var(--texto);
+        }
+
+
 **padding** - cria um espaço dentro da margem e dentro do border.
 
 **back-ground-color** - cor de fundo.
