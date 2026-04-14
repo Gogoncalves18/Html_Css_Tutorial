@@ -181,10 +181,31 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 **display** - muda o comportamento de bloco ou inline para os containers do html. 
 - *Inline-block* - joga uma do lado da outra.
 - *None* - esconde o container.
-- *flex* - deixa as div um do lado do outro
+- *flex* - deixa as div um do lado do outro. Usado para acondicionar os containers.
     - *justify-content: space-between* - espalha em espaco iguais as divs que estao lado a lado para ocupar a tela.
-- *flex-direction* - define uma direcao para div:
-    - *flex-direction: column* - joga as div em uma coluna.
+    - *flex-warp* - usado para display flex, ao colocar esta tag na div pai (.warp), ele passa a respeitar minhas div filhas ao qual o with é 33% da tela. Neste caso ela criara 3 espaços dentro de .box e coloca mais 3 espacos abaixo e assim por diante. Ex:
+    '.warp {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    }
+
+    .box {
+        height: 40px;
+        width: 33%;
+        border: 1px solid red;
+    }'
+    - *flex-direction* - define uma direcao para div:
+        - *flex-direction: column* - joga as div em uma coluna.
+    - *justify-content: end* - Joga as div para o final a direita da tela.
+    - *justify-content: around* - Deixa espaços iguais em cada div que está dentro do container.
+    - *align-items: center*  - Alinhamento no centro da div pai na vertical.
+    - *align-items: stretch* - estica o elemento para cobrir toda a div pai na vertical.
+    - *gap* - tag para gerar espacamento entre os elementos dentro de uma div que está regida pelo flex.
+    - *order* - reposiciona o elemento dentro da div flex de acordo com sua posicao via id number.
+    - *flex: 2* - é uma funcao que tonar a div que eu coloquei esta tag, como duas vezes o tamanho de suas div vizinhas do mesmo flex.
+    - *flex-basis: 20px* - Este caso trabalha junto com o flex:2, isto é, para as div filhas que tiverem com esta tag, elas terao 20px de largura e as demais que tivera com *flex-grow: 1*, elas aumentarao o tamanho até fechar a largura da tela., assim posso usar o *flex-shrink: 2*, ele irá diminuir o tamnho em 2x mais do que os outros elementos da mesma div flex.
+    - *align-self: center* - tag para fazer a div específica esquecer a orientaçao das outras div e ela mesmo assumir sua propria posicao.
 
 **position** - serve para posicionar os elementos na tela, sendo da esquerda para direita, do topo para parte inferior Lembrando que todo elemento é estatico e comeca com um padrao. Segue suas variantes:
 - *static* - é posicao padrao, ela segue o fluxo do html

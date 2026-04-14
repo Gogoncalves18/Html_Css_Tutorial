@@ -1,0 +1,150 @@
+body {
+    padding-bottom: 500px;
+}
+
+/* 1 - Flex */
+
+.flex {
+    display: flex;
+    background-color: #dddd;
+    margin-bottom: 20px;
+}
+
+/* 2 - Flex column */
+
+.flex-column {
+    display: flex;
+    background-color: #cccc;
+    margin-bottom: 20px;
+    flex-direction: column;
+}
+
+/* 3 - warp */
+
+.warp {
+    display: flex;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.box {
+    height: 40px;
+    width: 33%;
+    border: 1px solid red;
+}
+
+/* 4 - justify */
+
+.center,
+.space-around,
+.space-between,
+.end {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box {
+    width: 50px;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.end {
+    justify-content: end;
+}
+
+/* 5 - Align Vertical */
+
+.centerv,
+.strech,
+.endv {
+    display: flex;
+    margin-bottom: 20px;
+    height: 200px;
+    border: 1px solid blue;
+}
+
+.centerv .box,
+.strech .box,
+.endv .box {
+    width: 50px;
+}
+
+.centerv {
+    align-items: center;
+    justify-content: center;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.endv {
+    align-items: end;
+    justify-content: end;
+}
+
+.strech .box {
+    align-items: stretch;
+    justify-content: center;
+    height: auto;
+}
+
+/* 6 - GAP */
+
+.gap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 1px solid red;
+    gap: 1px;
+}
+
+/* 7 - ORDER */
+
+.order {
+    display: flex;
+}
+
+#one {
+    order: 1;
+}
+
+#two {
+    order: 2;
+}
+
+#three {
+    order: 3;
+}
+
+/* 8 - GROW */
+
+.grow {
+    display: flex;
+}
+
+.grow .box {
+    flex: 1;
+}
+
+.grow .box-big {
+    flex: 2;
+}
