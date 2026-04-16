@@ -98,6 +98,9 @@ Linha divisória: ---
 - *nav* - para colocar tudo que é de navegação do site, em relação ao menu.
 - *main* - onde fica a parte de conteúdo principal.
 - *section* - subdivisão dentro do html para definir que ali eu tenho "div" de conteúdo específico.
+- *aside* - para colocar informacoes laterais no site, este conteudo nao sera varrido pelo google.
+- *figure e figcaption* - a primeira tag é a pai e a segunda é a filha, para descrição da imagem para busca do google.
+- *mark* - para dar evidência a uma parte do texto.
 
 
 
@@ -134,6 +137,12 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 **padding** - cria um espaço dentro da margem e dentro do border.
 
 **back-ground-color** - cor de fundo.
+
+- *box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);* - Esta config faz com que caixas "div", fiquem com um leve sobreado em volta dando um visual de flutuar.
+
+**background** - cor de fundo através de funcao.
+- *.login-btn:hover {background: linear-gradient(90deg, #8a2be2, #6a5acd);}* - funcao para tornar um btn com degrade de cores. Usar um hover alternando a posicao das cores para dar um efeito.
+
 **opacity** - ele esta para o back_color, ele joga uma opacidade, que vai de 0 a 1.
 
 **.nome_classe** - o "." e nome significa a tag para classe do elemento. Ex. no html '''<p class="parag"> Teste de texto com classe</p>'''. 
@@ -152,6 +161,7 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
 **background-size** - para centralizar a img dentro do elemento "div", neste caso colocamos com valor *cover*. **Os dois juntos centraliza e reduz a imagem dentro da div**
 
 **height e width** - se diz a respeito do tamanho da div.
+- *height: 100vh* - usa a altura de tela para definir o tamanho da div.
 
 **overflow-x: hidden** - serve para pegar uma div e extender ela até o final da ocupação em x (na horizontal).
 
