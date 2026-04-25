@@ -213,7 +213,7 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
     - *align-items: stretch* - estica o elemento para cobrir toda a div pai na vertical.
     - *gap* - tag para gerar espacamento entre os elementos dentro de uma div que está regida pelo flex.
     - *order* - reposiciona o elemento dentro da div flex de acordo com sua posicao via id number.
-    - *flex: 2* - é uma funcao que tonar a div que eu coloquei esta tag, como duas vezes o tamanho de suas div vizinhas do mesmo flex.
+    - *flex: 2* - é uma funcao que tonar a div que eu coloquei esta tag, como duas vezes o tamanho de suas div vizinhas do mesmo flex. Para lancar mais foco na div que contém isto.
     - *flex-basis: 20px* - Este caso trabalha junto com o flex:2, isto é, para as div filhas que tiverem com esta tag, elas terao 20px de largura e as demais que tivera com *flex-grow: 1*, elas aumentarao o tamanho até fechar a largura da tela., assim posso usar o *flex-shrink: 2*, ele irá diminuir o tamnho em 2x mais do que os outros elementos da mesma div flex.
     - *align-self: center* - tag para fazer a div específica esquecer a orientaçao das outras div e ela mesmo assumir sua propria posicao.
 
