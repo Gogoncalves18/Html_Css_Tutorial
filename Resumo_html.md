@@ -216,6 +216,7 @@ Dentro do html sempre direcionamos a pagina de estilos no head da pagina pelo cm
     - *flex: 2* - é uma funcao que tonar a div que eu coloquei esta tag, como duas vezes o tamanho de suas div vizinhas do mesmo flex. Para lancar mais foco na div que contém isto.
     - *flex-basis: 20px* - Este caso trabalha junto com o flex:2, isto é, para as div filhas que tiverem com esta tag, elas terao 20px de largura e as demais que tivera com *flex-grow: 1*, elas aumentarao o tamanho até fechar a largura da tela., assim posso usar o *flex-shrink: 2*, ele irá diminuir o tamnho em 2x mais do que os outros elementos da mesma div flex.
     - *align-self: center* - tag para fazer a div específica esquecer a orientaçao das outras div e ela mesmo assumir sua propria posicao.
+    - *overflow: hidden* - Serve para não gerar barras laterais ou de rolagem quando o conteúdo sai da tela.
 
 **position** - serve para posicionar os elementos na tela, sendo da esquerda para direita, do topo para parte inferior Lembrando que todo elemento é estatico e comeca com um padrao. Segue suas variantes:
 - *static* - é posicao padrao, ela segue o fluxo do html
